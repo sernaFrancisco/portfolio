@@ -1,0 +1,81 @@
+:root {
+  --bg-a: #e3edf9;
+  --bg-b: #c6dcf1;
+  --bg-c: #dae9f8;
+  --bg-elevated: #eef4fc;
+  --panel: #fcfdff;
+  --panel-border: rgba(12, 26, 48, 0.14);
+  --hairline: rgba(20, 40, 70, 0.1);
+  --text-primary: #0b1526;
+  --text-secondary: #3f4d63;
+  --text-tertiary: #74829a;
+  --accent: #1f5fa8;
+  --accent-dim: rgba(31, 95, 168, 0.3);
+  --accent-glow: rgba(31, 95, 168, 0.5);
+  --white: #ffffff;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(160deg, var(--bg-a) 0%, var(--bg-b) 45%, var(--bg-c) 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  margin: 0;
+  color: var(--text-primary);
+}
+
+p {
+  margin: 0;
+}
+
+::selection {
+  background: var(--accent-dim);
+  color: var(--text-primary);
+}
+
+.mono {
+  letter-spacing: 0.04em;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.75), 0 4px 16px rgba(255, 255, 255, 0.5);
+}
