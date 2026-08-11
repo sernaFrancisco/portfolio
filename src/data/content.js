@@ -116,7 +116,6 @@ export const projects = [
   {
     id: "spider-bot",
     name: "Spider-Bot",
-    context: "ME 2011 — Fall 2025",
     description:
       "An obstacle-avoiding hexapod: an ultrasonic IR-proximity sensor detects obstructions within 25cm and triggers all 12 servos — three per leg, driven through a PCA9685 16-channel driver — to rotate the robot 90° counterclockwise using a pin-and-slider knee mechanism. Left and right legs counter-rotate to pull the frame across a surface, similar to a hoverboard's turning motion. Body and legs are 3D-printed; designed and modeled entirely in SolidWorks.",
     images: [
@@ -129,7 +128,6 @@ export const projects = [
   {
     id: "smart-trash-can",
     name: "IoT Smart Trash Can",
-    context: "EE 1301",
     description:
       "Designed and developed an IoT-enabled smart trash can using a Particle Photon 2, integrating ultrasonic sensing, load cell weight measurement, and servo-actuated mechanisms in C++, with real-time status indication via cloud. Implemented cloud-connected monitoring and control through the Particle Cloud API, enabling remote operation and automated actuation, and modeled a 3D-printed enclosure in SolidWorks.",
     images: [

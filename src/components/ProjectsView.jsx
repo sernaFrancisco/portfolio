@@ -63,7 +63,6 @@ export default function ProjectsView({ active, onClose }) {
               >
                 <div className="blueprint__sheet-head">
                   <h3>{p.name}</h3>
-                  <span className="mono blueprint__sheet-context">{p.context}</span>
                 </div>
 
                 {p.images && p.images.length > 0 ? (

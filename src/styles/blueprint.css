@@ -144,11 +144,6 @@
   color: var(--bp-ink);
 }
 
-.blueprint__sheet-context {
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--bp-accent);
-}
 
 .blueprint__gallery {
   display: flex;
