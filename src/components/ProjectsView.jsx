@@ -48,7 +48,7 @@ export default function ProjectsView({ active, onClose }) {
               transition={{ duration: 0.4, delay: 1.5 }}
             >
               <span className="mono blueprint__eyebrow">
-                DWG NO. ME-2025 · {projects.length} SHEET{projects.length === 1 ? "" : "S"}
+                {projects.length} SHEET{projects.length === 1 ? "" : "S"}
               </span>
               <h2>Projects</h2>
             </motion.div>
